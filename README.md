@@ -41,8 +41,8 @@ assertiva e pensamento crítico.
 | 🤖 **Desenvolvimento com IA** | Aplicação de inteligência artificial como apoio ao desenvolvimento Front-End. | [🔗 Visualizar](./at5-front-end-copilotado-com-ia/) |
 
 ### 🏗 Estrutura do Repositório
-Abaixo, a organização deste repositório para facilitar a navegação:
-- `root/`: Arquivo de apresentação principal.
-- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o
-README específico do projeto acadêmico.# portfolio-paulo-gabriel-kiyoshi-inazawa
-portfolio de projetos de Paulo Gabriel Kiyoshi Inazawa
+*README.md: Arquivo de apresentação principal do portfólio.
+*/AT2-Deploy-de-Site/: Finance Flow (E-commerce Streetwear).
+*/AT3-Calculadora-IMC/: Calculadora de IMC.
+*/AT4-Site-Multi-Paginas-Boostrap/: A Historia dos Games (Site multipáginas).
+*/AT5-Front-End-copilotado-com-IA/: Futuro & Sociedade (Análise Gen Z).
