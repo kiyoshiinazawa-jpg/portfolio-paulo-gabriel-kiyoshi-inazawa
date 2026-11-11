@@ -1,4 +1,4 @@
-# 🎬 Nome do Projeto
+# 🎬 Página Pessoal Semântica em HTML
 ## 📝 Descrição do Projeto
 Este projeto consiste em um motor de recomendação inteligente que
 utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
@@ -12,9 +12,8 @@ comportamento e similaridades entre títulos, utilizando algoritmos de
 aprendizado de máquina para prever a nota que um usuário daria a um
 filme ainda não assistido.
 ## 🚀 Tecnologias Utilizadas
-* **Linguagem:** HTML5, CSS e JavaScript
-* **Bibliotecas:** Bootstrap
-* **Ferramentas:** VSCode
+* Linguagem:** HTML5, CSS 
+* Ferramentas:** VSCode
 ## 📊 Resultados e Aprendizados
 O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
 a eficácia do modelo híbrido.
