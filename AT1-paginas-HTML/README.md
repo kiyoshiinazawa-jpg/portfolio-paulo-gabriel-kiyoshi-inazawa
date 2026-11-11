@@ -23,6 +23,6 @@ normalização de dados para melhorar a performance dos algoritmos.
 * **Visualização de Clusters:** Implementei gráficos que mostram como o
 sistema agrupa filmes por afinidade.
 ## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+[Clique para acessar](https://kiyoshiinazawa-jpg.github.io/site-/)
 ---
 [Voltar ao início](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
