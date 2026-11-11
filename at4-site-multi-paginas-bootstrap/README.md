@@ -15,7 +15,7 @@ filme ainda não assistido.
 * **Linguagem:** HTML5, CSS 
 * **Bibliotecas:** Bootstrap
 * **Ferramentas:** VSCode
-* **Modelo de IA:** Gemini
+* **Modelo de IA:** ChatGPT
 ## 📊 Resultados e Aprendizados
 O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
 a eficácia do modelo híbrido.
