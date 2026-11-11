@@ -25,4 +25,4 @@ sistema agrupa filmes por afinidade.
 ## 💻 Deploy do projeto
 [Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
 ---
-[Voltar ao início](https://github.com/seu-usuario/portfolio-usuario)
+[Voltar ao início]([https://github.com/seu-usuario/portfolio-usuario](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa))
