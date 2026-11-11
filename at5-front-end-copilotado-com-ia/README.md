@@ -1,4 +1,4 @@
-# 🎬 Nome do Projeto
+# 🎬 Front-End e Copilotagem com IA
 ## 📝 Descrição do Projeto
 Este projeto consiste em um motor de recomendação inteligente que
 utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
