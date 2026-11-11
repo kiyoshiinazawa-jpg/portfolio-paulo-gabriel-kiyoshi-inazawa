@@ -1,10 +1,6 @@
 # 🎬 Página Pessoal Semântica em HTML
 ## 📝 Descrição do Projeto
-Este projeto consiste em um motor de recomendação inteligente que
-utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
-objetivo principal é mitigar a "paralisia de escolha", oferecendo aos
-usuários sugestões personalizadas com base em seu histórico de
-visualização e preferências de gênero.
+Este projeto consiste no desenvolvimento de um **portfólio profissional pessoal**, criado com HTML5 e utilizando elementos semânticos para organizar e apresentar informações acadêmicas e profissionais. O objetivo principal é apresentar o perfil de Paulo Gabriel, destacando sua trajetória na área de tecnologia, formação em Análise e Desenvolvimento de Sistemas, experiências profissionais, serviços oferecidos e canais de contato. A página conta com uma estrutura organizada em seções de navegação, proporcionando uma experiência simples e intuitiva aos visitantes. Desenvolvido como parte das atividades de **Desenvolvimento Front-End para Web (2026.2)**, o projeto aplica conceitos de estruturação HTML, acessibilidade, navegação e organização de conteúdo para a construção de uma página web profissional.
 Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End
 Para Web (2026.2)**, o sistema processa grandes volumes de dados
 (datasets de filmes e avaliações) para identificar padrões de
