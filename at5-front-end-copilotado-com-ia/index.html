@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Análise socioeconômica da Geração Z: como a IA, a produtividade e a hiperconectividade afetam o início da carreira e o bem-estar." name="description"/><script>(function(){try{var t=localStorage.getItem('tema-preferido');if(t!=='dark'&&t!=='light'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-bs-theme',t);}catch(e){}})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZ & Futuro do Trabalho | Análise Socioeconômica</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="header-nav fixed-top shadow-sm">
+        <nav class="navbar navbar-expand-lg container py-3">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <div class="d-flex flex-column">
+                    <span class="brand-title">Futuro & Sociedade</span>
+                    <span class="brand-sub" style="font-size: 0.6rem; letter-spacing: 1.2px; color: #6c756d;">ANÁLISE SOCIOECONÔMICA DA GEN Z</span>
+                </div>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="impactos.html">Impactos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dados.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="estrategias.html">Estratégias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="questionario.html">Questionário</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow-1 p-0" style="margin-top: 70px;">
+        <!-- Carrossel de Imagens Full Screen -->
+        <div id="heroCarousel" class="carousel slide w-100" data-bs-ride="carousel">   
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="img/carrosel1.webp" class="d-block w-100 object-fit-cover" style="height: calc(100vh - 70px); filter: brightness(0.85);" alt="O Futuro do Trabalho">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 top-0 start-0 end-0 bottom-0 p-4" style="background: rgba(0, 0, 0, 0.4);">
+                        <span class="text-uppercase fw-semibold text-white-50 mb-2" style="font-size: 0.85rem; letter-spacing: 2px;">TENDÊNCIAS DE MERCADO</span>
+                        <h1 class="hero-title text-white mb-3" style="max-width: 850px; font-size: 2.8rem;">O Futuro do Trabalho e a Geração Atual</h1>
+                        <p class="text-light mb-4" style="max-width: 650px; font-size: 1.1rem;">
+                            Uma análise profunda sobre o impacto da Inteligência Artificial e a transformação digital no início da carreira.
+                        </p>
+                        <a href="impactos.html" class="btn btn-outline-light px-5 py-2 rounded-pill fw-medium">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/carrosel2.jpeg" class="d-block w-100 object-fit-cover" style="height: calc(100vh - 70px); filter: brightness(0.85);" alt="Mudanças Estruturais">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 top-0 start-0 end-0 bottom-0 p-4" style="background: rgba(0, 0, 0, 0.4);">
+                        <span class="text-uppercase fw-semibold text-white-50 mb-2" style="font-size: 0.85rem; letter-spacing: 2px;">MUDANÇAS ESTRUTURAIS</span>
+                        <h1 class="hero-title text-white mb-3" style="max-width: 850px; font-size: 2.8rem;">O Futuro do Trabalho e as Diferentes Gerações</h1>
+                        <p class="text-light mb-4" style="max-width: 650px; font-size: 1.1rem;">
+                                Descobre como o trabalho remoto e a autonomia redefinem as prioridades e a rotina dos profissionais da Geração Z.
+                        </p>
+                        <a href="impactos.html" class="btn btn-outline-light px-5 py-2 rounded-pill fw-medium">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/carrosel3.jpeg" class="d-block w-100 object-fit-cover" style="height: calc(100vh - 70px); filter: brightness(0.85);" alt="Saúde e Propósito">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 top-0 start-0 end-0 bottom-0 p-4" style="background: rgba(0, 0, 0, 0.4);">
+                        <span class="text-uppercase fw-semibold text-white-50 mb-2" style="font-size: 0.85rem; letter-spacing: 2px;">BEM-ESTAR E CARREIRA</span>
+                        <h1 class="hero-title text-white mb-3" style="max-width: 850px; font-size: 2.8rem;">Saúde Mental e Equilíbrio</h1>
+                        <p class="text-light mb-4" style="max-width: 650px; font-size: 1.1rem;">
+                            A rejeição ao esgotamento precoce e a busca por um ecossistema profissional mais humano e sustentável.
+                        </p>
+                        <a href="impactos.html" class="btn btn-outline-light px-5 py-2 rounded-pill fw-medium">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <section class="py-5 bg-warm-white border-y-beige text-center">
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <h2 class="text-uppercase fw-bold text-dark mb-4" style="letter-spacing: 1.5px; font-size: 1.25rem; font-family: 'Plus Jakarta Sans', sans-serif;">
+                            DESAFIOS SOCIOECONÔMICOS. COMPREENDENDO AS NECESSIDADES DA NOVA GERAÇÃO.
+                        </h2>
+                        <p class="fst-italic text-secondary mb-0" style="font-size: 1rem; line-height: 1.8; max-width: 800px; margin: 0 auto;">
+                            Como conciliar a aceleração tecnológica e a exigência de produtividade com o bem-estar mental, a busca por estabilidade e a construção de carreiras com propósito real no cenário econômico contemporâneo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container py-3">
+                <div class="text-center mb-5">
+                    <span class="eyebrow">PANORAMA GERAL</span>
+                    <h2 class="hero-title fs-2 mt-2">Três Forças que Moldam a Nova Geração</h2>
+                    <p class="text-secondary mx-auto mt-3" style="max-width: 700px;">
+                        A Geração Z é a primeira a entrar no mercado de trabalho já imersa em conectividade permanente. Esse cenário traz oportunidades inéditas e pressões igualmente novas.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                            <span class="icon-circle mb-3"><i class="bi bi-phone"></i></span>
+                            <h3 class="h5 fw-bold mb-2">Conectividade Permanente</h3>
+                            <p class="text-secondary small mb-0" style="line-height: 1.7;">
+                                Mensagens, e-mails, grupos e redes sociais chegam a qualquer hora. A fronteira entre estar online por escolha e estar online por obrigação ficou cada vez mais difícil de enxergar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                            <span class="icon-circle mb-3"><i class="bi bi-speedometer2"></i></span>
+                            <h3 class="h5 fw-bold mb-2">Cultura da Alta Performance</h3>
+                            <p class="text-secondary small mb-0" style="line-height: 1.7;">
+                                Rotinas "otimizadas", metas ambiciosas e comparação constante com a vida produtiva dos outros alimentam a sensação de que nunca se faz o suficiente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                            <span class="icon-circle mb-3"><i class="bi bi-robot"></i></span>
+                            <h3 class="h5 fw-bold mb-2">Inteligência Artificial</h3>
+                            <p class="text-secondary small mb-0" style="line-height: 1.7;">
+                                A IA acelera tarefas e amplia possibilidades, mas também desperta dúvidas: quais habilidades continuarão relevantes e como acompanhar um ritmo de mudança tão rápido?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-warm-white border-y-beige">
+            <div class="container py-lg-3">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="card-custom p-2 bg-white shadow-sm border-beige overflow-hidden rounded-4">
+                            <img src="img/carrosel3.jpeg" alt="Ansiedade digital e bem-estar" class="img-fluid rounded-3 w-100" style="height: 380px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="eyebrow">CONCEITO-CHAVE</span>
+                        <h2 class="hero-title fs-2 mt-2 mb-3">O que é Ansiedade Digital?</h2>
+                        <p class="text-secondary mb-3" style="line-height: 1.7;">
+                            É o desconforto, a inquietação ou a tensão que surge da relação com dispositivos e ambientes online: a necessidade de checar notificações o tempo todo, o medo de ficar para trás e a sensação de estar sempre "de plantão" para o trabalho ou para os estudos.
+                        </p>
+                        <p class="text-secondary mb-3" style="line-height: 1.7;">
+                            Não se trata de culpar a tecnologia, e sim de entender como o <strong>modo de uso</strong> afeta o sono, a concentração e o humor. Alguns sinais comuns:
+                        </p>
+                        <ul class="lista-check text-secondary mb-4">
+                            <li>Checar o celular por reflexo, mesmo sem notificação.</li>
+                            <li>Dificuldade de relaxar sem uma tela por perto.</li>
+                            <li>Culpa ao descansar ou ao ficar offline.</li>
+                            <li>Cansaço mental no fim do dia, mesmo após tarefas simples.</li>
+                        </ul>
+                        <a href="impactos.html" class="btn btn-dark px-4 py-2 rounded-pill fw-medium" style="background-color: #3b5249; border: none;">Ver impactos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <span class="eyebrow">EVOLUÇÃO DO TRABALHO</span>
+                            <h2 class="hero-title fs-2 mt-2">Da Jornada Fixa ao Trabalho Sempre Conectado</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h3 class="h6 fw-bold texto-verde mb-1">Era do escritório</h3>
+                                <p class="text-secondary small mb-0" style="line-height: 1.7;">Horários rígidos e local fixo. O expediente terminava ao sair do prédio e a separação entre trabalho e casa era física.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3 class="h6 fw-bold texto-verde mb-1">Era do e-mail e do smartphone</h3>
+                                <p class="text-secondary small mb-0" style="line-height: 1.7;">O trabalho passou a caber no bolso. A comunicação ficou mais ágil, mas a expectativa de resposta rápida chegou ao período de descanso.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h3 class="h6 fw-bold texto-verde mb-1">Era do remoto e do híbrido</h3>
+                                <p class="text-secondary small mb-0" style="line-height: 1.7;">Mais autonomia e flexibilidade, porém com a casa funcionando também como escritório e a necessidade de impor os próprios limites.</p>
+                            </div>
+                            <div class="timeline-item mb-0">
+                                <h3 class="h6 fw-bold texto-verde mb-1">Era da inteligência artificial</h3>
+                                <p class="text-secondary small mb-0" style="line-height: 1.7;">Tarefas automatizadas, ritmo de entregas acelerado e novas competências exigidas, com o desafio de usar a IA a favor do bem-estar e não apenas da velocidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-warm-white border-y-beige">
+            <div class="container py-3">
+                <div class="text-center mb-5">
+                    <span class="eyebrow">EXPLORE O PROJETO</span>
+                    <h2 class="hero-title fs-2 mt-2">Por Onde Começar</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <a href="impactos.html" class="text-decoration-none">
+                            <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                                <div class="texto-verde fs-2 mb-3"><i class="bi bi-graph-up-arrow"></i></div>
+                                <h3 class="h5 fw-bold text-dark mb-2">Impactos</h3>
+                                <p class="text-secondary small mb-3" style="line-height: 1.6;">Entenda como tecnologia, IA e novos modelos de trabalho afetam a rotina e a saúde mental.</p>
+                                <span class="texto-verde fw-semibold small">Ler análise <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="estrategias.html" class="text-decoration-none">
+                            <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                                <div class="texto-verde fs-2 mb-3"><i class="bi bi-compass"></i></div>
+                                <h3 class="h5 fw-bold text-dark mb-2">Estratégias</h3>
+                                <p class="text-secondary small mb-3" style="line-height: 1.6;">Práticas simples para pausas, limites, uso consciente de IA e uma rotina mais sustentável.</p>
+                                <span class="texto-verde fw-semibold small">Ver estratégias <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="questionario.html" class="text-decoration-none">
+                            <div class="card-custom card-hover p-4 h-100 bg-white shadow-sm">
+                                <div class="texto-verde fs-2 mb-3"><i class="bi bi-clipboard2-check"></i></div>
+                                <h3 class="h5 fw-bold text-dark mb-2">Questionário</h3>
+                                <p class="text-secondary small mb-3" style="line-height: 1.6;">Descubra como está o seu equilíbrio digital em 15 perguntas rápidas e receba sugestões.</p>
+                                <span class="texto-verde fw-semibold small">Fazer o teste <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer class="footer py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Futuro & Sociedade. Projeto Acadêmico Front-End.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
