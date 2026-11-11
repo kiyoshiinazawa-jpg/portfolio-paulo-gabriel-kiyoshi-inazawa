@@ -32,7 +32,5 @@ depuração de funções em JavaScript]. Todo o código gerado foi revisado,
 testado e compreendido por mim, garantindo a minha responsabilidade
 integral sobre a autoria final, integridade e funcionamento da
 aplicação.
-## 💻 Deploy do projeto
-[Clique para acessar](https://kiyoshiinazawa-jpg.github.io/calculadora-imc/)
 ---
 [Voltar ao início](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
