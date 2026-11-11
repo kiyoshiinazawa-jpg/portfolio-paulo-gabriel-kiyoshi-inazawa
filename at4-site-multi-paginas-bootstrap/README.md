@@ -12,7 +12,7 @@ comportamento e similaridades entre títulos, utilizando algoritmos de
 aprendizado de máquina para prever a nota que um usuário daria a um
 filme ainda não assistido.
 ## 🚀 Tecnologias Utilizadas
-* **Linguagem:** HTML5, CSS e JavaScript
+* **Linguagem:** HTML5, CSS 
 * **Bibliotecas:** Bootstrap
 * **Ferramentas:** VSCode
 * **Modelo de IA:** Gemini
@@ -25,14 +25,13 @@ normalização de dados para melhorar a performance dos algoritmos.
 * **Visualização de Clusters:** Implementei gráficos que mostram como o
 sistema agrupa filmes por afinidade.
 ## 🧠 Declaração de Uso Ético da IA
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex:
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e
-depuração de funções em JavaScript]. Todo o código gerado foi revisado,
+Este projeto utilizou inteligência artificial (ChatGPT) estritamente como ferramenta de suporte
+tecnológico para finalidade de corrigir erros no código estruturação inicial do HTML e
+criação de imagens. Todo o código gerado foi revisado,
 testado e compreendido por mim, garantindo a minha responsabilidade
 integral sobre a autoria final, integridade e funcionamento da
 aplicação.
 ## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+[Clique para acessar](https://kiyoshiinazawa-jpg.github.io/Trabalho-site-videogame/)
 ---
 [Voltar ao início](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
