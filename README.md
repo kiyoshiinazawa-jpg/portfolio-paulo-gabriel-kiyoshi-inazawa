@@ -30,19 +30,15 @@ assertiva e pensamento crítico.
 ---
 ### 📂 Portfólio de Projetos
 #### 🌐 Desenvolvimento Front-End para Web
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Site Básico em HTML5** | Criação de site básico com 5 páginas em
-HTML5. | [Ver Projeto](./AT1-Paginas-HTML/) |
-| **Deploy de Site** | Publicação de site no github pages. | [Ver
-Projeto](./AT2-Deploy-de-Site/) |
-| **Calculadora de IMC** | Desenvolvimento de uma calculadora de IMC com
-JavaScript. | [Ver Projeto](./AT3-Calculadora-IMC/) |
-| **Site com Bootstrap** | Aplicação do Bootstrap para o desenvolvimento
-de um site com múltiplas páginas. | [Ver
-Projeto](./AT4-Site-Multi-Paginas-Bootstrap/) |
-| **Desenvolvimento com IA** | Copilotando o desenvolvimento front-end
-com IA. | [Ver Projeto](./AT5-Front-End-Copilotado-com-IA/) |
+## 💻 Projetos Acadêmicos
+
+| Projeto | Descrição | Acesso |
+|:---|:---|:---:|
+| 🌐 **Site Básico em HTML5** | Desenvolvimento de um site com 5 páginas utilizando HTML5. | [🔗 Visualizar](./AT1-Paginas-HTML/) |
+| 🚀 **Deploy de Site** | Publicação e hospedagem de um site utilizando GitHub Pages. | [🔗 Visualizar](./AT2-Deploy-de-Site/) |
+| 🧮 **Calculadora de IMC** | Criação de uma calculadora de IMC utilizando JavaScript. | [🔗 Visualizar](./AT3-Calculadora-IMC/) |
+| 🎨 **Site com Bootstrap** | Desenvolvimento de um site com múltiplas páginas utilizando Bootstrap. | [🔗 Visualizar](./AT4-Site-Multi-Paginas-Bootstrap/) |
+| 🤖 **Desenvolvimento com IA** | Aplicação de inteligência artificial como apoio ao desenvolvimento Front-End. | [🔗 Visualizar](./AT5-Front-End-Copilotado-com-IA/) |
 
 ### 🏗 Estrutura do Repositório
 Abaixo, a organização deste repositório para facilitar a navegação:
