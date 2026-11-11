@@ -33,6 +33,6 @@ testado e compreendido por mim, garantindo a minha responsabilidade
 integral sobre a autoria final, integridade e funcionamento da
 aplicação.
 ## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+[Clique para acessar](https://kiyoshiinazawa-jpg.github.io/Ansiedade-digital-/)
 ---
 [Voltar ao início](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
