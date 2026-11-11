@@ -15,7 +15,7 @@ filme ainda não assistido.
 * **Linguagem:** HTML5, CSS e JavaScript
 * **Bibliotecas:** Bootstrap
 * **Ferramentas:** VSCode
-* **Modelo de IA:** Gemini
+* **Modelo de IA:** Gemini, ChatGPT e Claude
 ## 📊 Resultados e Aprendizados
 O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
 a eficácia do modelo híbrido.
@@ -25,10 +25,9 @@ normalização de dados para melhorar a performance dos algoritmos.
 * **Visualização de Clusters:** Implementei gráficos que mostram como o
 sistema agrupa filmes por afinidade.
 ## 🧠 Declaração de Uso Ético da IA
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex:
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e
-depuração de funções em JavaScript]. Todo o código gerado foi revisado,
+Este projeto utilizou inteligência artificial (Gemini, ChatGPT e Claude) estritamente como ferramenta de suporte
+tecnológico para finalidade de estruturação inicial do HTML, criação de imagens, conserto de códigos e  
+depuração de funções em JavaScript. Todo o código gerado foi revisado,
 testado e compreendido por mim, garantindo a minha responsabilidade
 integral sobre a autoria final, integridade e funcionamento da
 aplicação.
