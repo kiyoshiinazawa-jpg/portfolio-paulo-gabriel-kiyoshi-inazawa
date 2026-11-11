@@ -35,4 +35,4 @@ aplicação.
 ## 💻 Deploy do projeto
 [Clique para acessar](https://kiyoshiinazawa-jpg.github.io/site/)
 ---
-[Voltar ao início].(https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
+[Voltar ao início](https://github.com/kiyoshiinazawa-jpg/portfolio-paulo-gabriel-kiyoshi-inazawa)
