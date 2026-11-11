@@ -6,7 +6,7 @@ Paulo Gabriel Kiyoshi Inazawa
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kiyoshi.inazawa@gmail.com)
 
 ---
-### 󰞵 Sobre
+### 👨‍💻 Sobre
 Atualmente cursando o 2º período de Analise e Desenvolvimento de Sistema na Universidade Cidade de São Paulo (UNICID). Sou apaixonado por resolver problemas através da
 tecnologia e possuo foco em Área de Interesse - Desenvolvimento
 Front-end e Análise de Dados.
@@ -29,7 +29,7 @@ assertiva e pensamento crítico.
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ---
 ### 📂 Portfólio de Projetos
-#### 󰳕 Desenvolvimento Front-End para Web
+#### 🌐 Desenvolvimento Front-End para Web
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Site Básico em HTML5** | Criação de site básico com 5 páginas em
