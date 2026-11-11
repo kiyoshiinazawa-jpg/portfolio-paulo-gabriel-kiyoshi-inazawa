@@ -35,10 +35,10 @@ assertiva e pensamento crítico.
 | Projeto | Descrição | Acesso |
 |:---|:---|:---:|
 | 🌐 **Site Básico em HTML5** | Desenvolvimento de um site com 5 páginas utilizando HTML5. | [🔗 Visualizar](./AT1-paginas-HTML/) |
-| 🚀 **Deploy de Site** | Publicação e hospedagem de um site utilizando GitHub Pages. | [🔗 Visualizar](./AT2-Deploy-de-Site/) |
-| 🧮 **Calculadora de IMC** | Criação de uma calculadora de IMC utilizando JavaScript. | [🔗 Visualizar](./AT3-Calculadora-IMC/) |
-| 🎨 **Site com Bootstrap** | Desenvolvimento de um site com múltiplas páginas utilizando Bootstrap. | [🔗 Visualizar](./AT4-Site-Multi-Paginas-Bootstrap/) |
-| 🤖 **Desenvolvimento com IA** | Aplicação de inteligência artificial como apoio ao desenvolvimento Front-End. | [🔗 Visualizar](./AT5-Front-End-Copilotado-com-IA/) |
+| 🚀 **Deploy de Site** | Publicação e hospedagem de um site utilizando GitHub Pages. | [🔗 Visualizar](./at2-deploy-de-site/) |
+| 🧮 **Calculadora de IMC** | Criação de uma calculadora de IMC utilizando JavaScript. | [🔗 Visualizar](./at3-calculadora-imc/) |
+| 🎨 **Site com Bootstrap** | Desenvolvimento de um site com múltiplas páginas utilizando Bootstrap. | [🔗 Visualizar](./at4-site-multi-paginas-bootstrap/) |
+| 🤖 **Desenvolvimento com IA** | Aplicação de inteligência artificial como apoio ao desenvolvimento Front-End. | [🔗 Visualizar](./at5-front-end-copilotado-com-ia/) |
 
 ### 🏗 Estrutura do Repositório
 Abaixo, a organização deste repositório para facilitar a navegação:
