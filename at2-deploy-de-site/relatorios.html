@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceFlow - Relatórios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-badge">
+                <div class="logo-icon">💰</div>
+                <div>
+                    <div class="logo-text">FinanceFlow</div>
+                    <div class="logo-sub">Controle Financeiro</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <div class="nav-label">Principal</div>
+            <a class="nav-item" href="index.html"><span>📊</span> Dashboard</a>
+            <a class="nav-item" href="receitas.html"><span>📈</span> Receitas</a>
+            <a class="nav-item" href="despesas.html"><span>📉</span> Despesas</a>
+
+            <div class="nav-label">Planejamento</div>
+            <a class="nav-item" href="metas.html"><span>🎯</span> Metas</a>
+            <a class="nav-item active" href="relatorios.html"><span>📋</span> Relatórios</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-card">
+                <div class="avatar">JS</div>
+                <div>
+                    <div class="user-name">João Silva</div>
+                    <div class="user-role">Plano Gratuito</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="topbar">
+            <div>
+                <h1 class="topbar-title">Relatórios</h1>
+                <div class="topbar-sub">Análise anual de 2025</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80" alt="Relatório financeiro" class="img-banner">
+
+            <div class="report-grid">
+                <div class="report-stat">
+                    <div class="lbl">Receita Total 2025</div>
+                    <div class="num text-green">R$ 97.800</div>
+                    <div class="text-muted">Média mensal: R$ 10.867</div>
+                </div>
+                <div class="report-stat">
+                    <div class="lbl">Despesa Total 2025</div>
+                    <div class="num text-red">R$ 31.450</div>
+                    <div class="text-muted">Média mensal: R$ 3.494</div>
+                </div>
+                <div class="report-stat">
+                    <div class="lbl">Saldo Acumulado</div>
+                    <div class="num text-amber">R$ 66.350</div>
+                    <div class="text-muted">Taxa de poupança: 67,8%</div>
+                </div>
+            </div>
+
+            <div class="two-col mb-6">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Evolução do Saldo - 2025</span>
+                    </div>
+                    <div class="card-body">
+                        <svg viewBox="0 0 440 180" width="100%" role="img" aria-label="Gráfico de linha mostrando a evolução do saldo em 2025">
+                            <title>Evolução do Saldo</title>
+                            <line x1="40" y1="150" x2="435" y2="150" stroke="#E2E8F0" />
+                            <polyline points="45,135 85,128 125,118 165,105 205,95 245,87 285,78 325,68 365,60 405,52" fill="none" stroke="#10B981" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Resumo por Mês</span>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mês</th>
+                                <th class="text-right">Receita</th>
+                                <th class="text-right">Despesa</th>
+                                <th class="text-right">Saldo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Janeiro</td>
+                                <td class="text-right text-green">R$ 9.800</td>
+                                <td class="text-right text-red">R$ 3.100</td>
+                                <td class="text-right font-bold">R$ 6.700</td>
+                            </tr>
+                            <tr>
+                                <td>Fevereiro</td>
+                                <td class="text-right text-green">R$ 9.900</td>
+                                <td class="text-right text-red">R$ 3.300</td>
+                                <td class="text-right font-bold">R$ 6.600</td>
+                            </tr>
+                            <tr>
+                                <td>Março</td>
+                                <td class="text-right text-green">R$ 10.500</td>
+                                <td class="text-right text-red">R$ 3.500</td>
+                                <td class="text-right font-bold">R$ 7.000</td>
+                            </tr>
+                            <tr>
+                                <td>Setembro</td>
+                                <td class="text-right text-green">R$ 12.300</td>
+                                <td class="text-right text-red">R$ 3.850</td>
+                                <td class="text-right font-bold text-green">R$ 8.450</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Exportar Relatório</span>
+                </div>
+                <div class="card-body">
+                    <button type="button" class="btn btn-outline">📄 Exportar PDF</button>
+                    <button type="button" class="btn btn-outline">📊 Exportar Excel</button>
+                    <button type="button" class="btn btn-outline">📧 Enviar por E-mail</button>
+                    <button type="button" class="btn btn-primary" onclick="window.print()">🖨 Imprimir</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

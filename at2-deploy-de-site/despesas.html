@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceFlow - Despesas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-badge">
+                <div class="logo-icon">💰</div>
+                <div>
+                    <div class="logo-text">FinanceFlow</div>
+                    <div class="logo-sub">Controle Financeiro</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <div class="nav-label">Principal</div>
+            <a class="nav-item" href="index.html"><span>📊</span> Dashboard</a>
+            <a class="nav-item" href="receitas.html"><span>📈</span> Receitas</a>
+            <a class="nav-item active" href="despesas.html"><span>📉</span> Despesas</a>
+
+            <div class="nav-label">Planejamento</div>
+            <a class="nav-item" href="metas.html"><span>🎯</span> Metas</a>
+            <a class="nav-item" href="relatorios.html"><span>📋</span> Relatórios</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-card">
+                <div class="avatar">JS</div>
+                <div>
+                    <div class="user-name">João Silva</div>
+                    <div class="user-role">Plano Gratuito</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="topbar">
+            <div>
+                <h1 class="topbar-title">Despesas</h1>
+                <div class="topbar-sub">Controle seus gastos mensais</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="alert alert-warn" role="alert">
+                ⚠️ Suas despesas com lazer aumentaram 22% este mês. Considere revisar o orçamento.
+            </div>
+
+            <div class="card mb-6">
+                <div class="card-header">
+                    <span class="card-title">Registrar Nova Despesa</span>
+                </div>
+                <div class="card-body">
+                    <form id="form-despesa">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="descricao">Descrição</label>
+                                <input type="text" id="descricao" name="descricao" placeholder="Ex: Supermercado, Netflix" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="valor">Valor (R$)</label>
+                                <input type="number" id="valor" name="valor" step="0.01" placeholder="0,00" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="categoria">Categoria</label>
+                                <select id="categoria" name="categoria">
+                                    <option>Moradia</option>
+                                    <option>Alimentação</option>
+                                    <option>Transporte</option>
+                                    <option>Saúde</option>
+                                    <option>Educação</option>
+                                    <option>Lazer</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pagamento">Forma de Pagamento</label>
+                                <select id="pagamento" name="pagamento">
+                                    <option>Débito</option>
+                                    <option>Crédito</option>
+                                    <option>PIX</option>
+                                    <option>Dinheiro</option>
+                                    <option>Boleto</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="data">Data</label>
+                                <input type="date" id="data" name="data" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fixa">É fixa?</label>
+                                <select id="fixa" name="fixa">
+                                    <option value="nao">Não - gasto único</option>
+                                    <option value="sim">Sim - recorrente mensal</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="reset" class="btn btn-outline">Cancelar</button>
+                            <button type="submit" class="btn btn-danger">Registrar Despesa</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Despesas de Setembro</span>
+                    <span class="text-red font-bold">Total: R$ 3.850</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Categoria</th>
+                            <th>Pagamento</th>
+                            <th>Data</th>
+                            <th>Fixa</th>
+                            <th class="text-right">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Aluguel</td>
+                            <td><span class="tag tag-amber">Moradia</span></td>
+                            <td>PIX</td>
+                            <td>05/09</td>
+                            <td>✅ Sim</td>
+                            <td class="text-right text-red font-bold">R$ 1.400</td>
+                        </tr>
+                        <tr>
+                            <td>Supermercado</td>
+                            <td><span class="tag tag-green">Alimentação</span></td>
+                            <td>Débito</td>
+                            <td>04/09</td>
+                            <td>❌ Não</td>
+                            <td class="text-right text-red font-bold">R$ 320</td>
+                        </tr>
+                        <tr>
+                            <td>Internet</td>
+                            <td><span class="tag tag-amber">Moradia</span></td>
+                            <td>Boleto</td>
+                            <td>03/09</td>
+                            <td>✅ Sim</td>
+                            <td class="text-right text-red font-bold">R$ 120</td>
+                        </tr>
+                        <tr>
+                            <td>Uber</td>
+                            <td><span class="tag tag-blue">Transporte</span></td>
+                            <td>Crédito</td>
+                            <td>02/09</td>
+                            <td>❌ Não</td>
+                            <td class="text-right text-red font-bold">R$ 85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

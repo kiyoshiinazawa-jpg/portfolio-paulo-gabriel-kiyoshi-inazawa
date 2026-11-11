@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceFlow - Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-badge">
+                <div class="logo-icon">💰</div>
+                <div>
+                    <div class="logo-text">FinanceFlow</div>
+                    <div class="logo-sub">Controle Financeiro</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <div class="nav-label">Principal</div>
+            <a class="nav-item" href="index.html"><span>📊</span> Dashboard</a>
+            <a class="nav-item active" href="receitas.html"><span>📈</span> Receitas</a>
+            <a class="nav-item" href="despesas.html"><span>📉</span> Despesas</a>
+
+            <div class="nav-label">Planejamento</div>
+            <a class="nav-item" href="metas.html"><span>🎯</span> Metas</a>
+            <a class="nav-item" href="relatorios.html"><span>📋</span> Relatórios</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-card">
+                <div class="avatar">JS</div>
+                <div>
+                    <div class="user-name">João Silva</div>
+                    <div class="user-role">Plano Gratuito</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="topbar">
+            <div>
+                <h1 class="topbar-title">Receitas</h1>
+                <div class="topbar-sub">Gerencie suas fontes de renda</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="alert alert-info" role="alert">
+                💡 Registre suas fontes de renda. Esta tela é apenas ilustrativa e não salva dados.
+            </div>
+
+            <div class="card mb-6">
+                <div class="card-header">
+                    <span class="card-title">Registrar Nova Receita</span>
+                </div>
+                <div class="card-body">
+                    <form id="form-receita">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="descricao">Descrição</label>
+                                <input type="text" id="descricao" name="descricao" placeholder="Ex: Salário, Freelance" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="valor">Valor (R$)</label>
+                                <input type="number" id="valor" name="valor" step="0.01" placeholder="0,00" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="categoria">Categoria</label>
+                                <select id="categoria" name="categoria">
+                                    <option>Salário</option>
+                                    <option>Freelance</option>
+                                    <option>Investimento</option>
+                                    <option>Venda</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="data">Data</label>
+                                <input type="date" id="data" name="data" required>
+                            </div>
+
+                            <div class="form-group full">
+                                <label for="observacao">Observação</label>
+                                <textarea id="observacao" name="observacao" placeholder="Detalhes sobre esta receita..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="reset" class="btn btn-outline">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Salvar Receita</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Histórico de Receitas</span>
+                    <span class="text-green font-bold">Total: R$ 12.300</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Categoria</th>
+                            <th>Data</th>
+                            <th>Recorrência</th>
+                            <th class="text-right">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Salário CLT</td>
+                            <td><span class="tag tag-blue">Salário</span></td>
+                            <td>05/09/2025</td>
+                            <td>🔄 Mensal</td>
+                            <td class="text-right text-green font-bold">R$ 7.500</td>
+                        </tr>
+                        <tr>
+                            <td>Freelance design</td>
+                            <td><span class="tag tag-green">Freelance</span></td>
+                            <td>03/09/2025</td>
+                            <td>Único</td>
+                            <td class="text-right text-green font-bold">R$ 1.800</td>
+                        </tr>
+                        <tr>
+                            <td>Dividendos FII</td>
+                            <td><span class="tag tag-amber">Investimento</span></td>
+                            <td>15/08/2025</td>
+                            <td>🔄 Mensal</td>
+                            <td class="text-right text-green font-bold">R$ 600</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
