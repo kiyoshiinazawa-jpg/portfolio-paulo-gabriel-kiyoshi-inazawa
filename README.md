@@ -7,9 +7,9 @@ Paulo Gabriel Kiyoshi Inazawa
 
 ---
 ### 󰞵 Sobre
-Atualmente cursando o [2º] período de [Analise e Desenvolvimento de Sistema] na [Universidade de São Paulo-UNICID]. Sou apaixonado por resolver problemas através da
+Atualmente cursando o 2º período de Analise e Desenvolvimento de Sistema na Universidade Cidade de São Paulo (UNICID). Sou apaixonado por resolver problemas através da
 tecnologia e possuo foco em Área de Interesse - Desenvolvimento
-Front-end / Análise de Dados].
+Front-end e Análise de Dados.
 * **Habilidades Técnicas: Python, JavaScript, HTML e CSS.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação
 assertiva e pensamento crítico.
