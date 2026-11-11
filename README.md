@@ -1,4 +1,4 @@
-Paulo Gabriel Kiyoshi Inazawa
+# Paulo Gabriel Kiyoshi Inazawa
 > Estudante de Analise e Desenvolvimento de Sistema
 ---
 ### 📫 Contato & Redes Sociais
@@ -34,7 +34,7 @@ assertiva e pensamento crítico.
 
 | Projeto | Descrição | Acesso |
 |:---|:---|:---:|
-| 🌐 **Site Básico em HTML5** | Desenvolvimento de um site com 5 páginas utilizando HTML5. | [🔗 Visualizar](./AT1-Paginas-HTML/) |
+| 🌐 **Site Básico em HTML5** | Desenvolvimento de um site com 5 páginas utilizando HTML5. | [🔗 Visualizar](./AT1-paginas-HTML/) |
 | 🚀 **Deploy de Site** | Publicação e hospedagem de um site utilizando GitHub Pages. | [🔗 Visualizar](./AT2-Deploy-de-Site/) |
 | 🧮 **Calculadora de IMC** | Criação de uma calculadora de IMC utilizando JavaScript. | [🔗 Visualizar](./AT3-Calculadora-IMC/) |
 | 🎨 **Site com Bootstrap** | Desenvolvimento de um site com múltiplas páginas utilizando Bootstrap. | [🔗 Visualizar](./AT4-Site-Multi-Paginas-Bootstrap/) |
